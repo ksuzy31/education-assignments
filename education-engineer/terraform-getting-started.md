@@ -26,7 +26,7 @@ Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#trou
 In this demo, you will learn how to use Terraform to provision and destroy an NGINX instance running as a docker container. 
 
 ## Additional Prerequisites
-- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Docker](https://www.docker.com/products/docker-desktop/). To learn how to install the 
 
 ## Quick Start Steps
 Step 1. Start Docker Desktop
@@ -46,7 +46,7 @@ Step 3. Create a file for your Terraform configuration code.
 $ touch main.tf
 ```
 
-Step 4. Enter the following code snippet in main.tf. This will contain the configuration for your module. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started) page.
+Step 4. Enter the following code snippet in your `main.tf`. This will contain the configuration for your NGINX docker container. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started) page.
 
 ```hcl
 terraform {
