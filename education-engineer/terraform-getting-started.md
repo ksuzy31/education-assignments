@@ -1,5 +1,6 @@
 # Getting Started with Terraform
 
+## What is Terraform
 Terraform is an open source infrastructure as code (IaC) tool written in HCL (HashiCorp Configuration Language) that allows you to manage, monitor, and provision resources using configuration files.
 
 ## Installating Terraform 
