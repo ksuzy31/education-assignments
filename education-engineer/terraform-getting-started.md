@@ -17,7 +17,7 @@ Terraform is an open source infrastructure as code (IaC) tool written in HCL (Ha
 
 
 ## Installating Terraform 
-To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and select the appropriate installation method to for your operating system.
+To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and select the appropriate installation method for your operating system. Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#install-terraform) page to learn more about installing Terraform.
 
 ## Verify the installation
 To verify the installation of Terraform was successful, open a new terminal session and list Terraform's available subcommands.
@@ -33,7 +33,7 @@ less common or more advanced commands.
 # Terraform Demo using Docker
 In this demo, you will use Terraform to provision an Nginx instance using Docker Desktop. 
 
-## Additional Prerequisites
+## Prerequisites
 
 - [Docker](https://www.docker.com/products/docker-desktop/)
 
