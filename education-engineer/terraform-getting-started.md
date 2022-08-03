@@ -2,20 +2,6 @@
 
 Terraform is an open source infrastructure as code (IaC) tool written in HCL (HashiCorp Configuration Language) that allows you to manage, monitor, and provision resources using configuration files.
 
-## OS Specific Prerequisites 
-
-## MacOS
--[Brew (MacOS Package Manager )](https://brew.sh)
-
-## Linux
-
-### CentOS Distributions
-- yum-config-manager (installed via yum-utils)
-
-### Debian Distributions
-- gpg (installed via gnupg)
-
-
 ## Installating Terraform 
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and select the appropriate installation method for your operating system. Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#install-terraform) page to learn more about installing Terraform.
 
