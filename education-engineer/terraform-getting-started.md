@@ -19,6 +19,7 @@ less common or more advanced commands.
 ## Troubleshooting the Installation
 Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#troubleshoot) page to learn more on troubleshooting the Terraform installation. 
 
+<div style="page-break-after: always; visibility: hidden"> \pagebreak </div>
 
 # Terraform Demo using Docker
 
