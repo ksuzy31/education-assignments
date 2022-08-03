@@ -23,7 +23,7 @@ Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#trou
 # Terraform Demo using Docker
 
 ## Learning Objectives
-In this demo, you will learn how to use Terraform to provision and destroy an NGINX instance. 
+In this demo, you will learn how to use Terraform to provision and destroy an NGINX docker container instance. 
 
 ## Additional Prerequisites
 - [Docker](https://www.docker.com/products/docker-desktop/)
