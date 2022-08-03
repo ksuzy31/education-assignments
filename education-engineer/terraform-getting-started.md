@@ -46,7 +46,8 @@ $ cd terraform-demo
 $ touch main.tf
 ```
 
-### Step 4. Enter the following code snippet in your `main.tf`. This will contain the configuration for your NGINX docker container. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#review-the-configuration) page.
+### Step 4. Enter the following code snippet in your `main.tf`. 
+This will contain the configuration for your NGINX docker container. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#review-the-configuration) page.
 
 ```hcl
 terraform {
