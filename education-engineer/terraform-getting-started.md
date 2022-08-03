@@ -29,24 +29,24 @@ In this demo, you will learn how to use Terraform to provision and destroy an NG
 - [Docker](https://www.docker.com/products/docker-desktop/). To learn how to install the 
 
 ## Quick Start Steps
-Step 1. Start Docker Desktop
+### Step 1. Start Docker Desktop
 ```shell
 $ open -a Docker
 ```
 
-Step 2. Create a directory called terraform-demo and navigate to it.
+### Step 2. Create a directory called terraform-demo and navigate to it.
 ```shell
 $ mkdir terraform-demo
 $ cd terraform-demo
 ```
 
-Step 3. Create a file for your Terraform configuration code.
+### Step 3. Create a file for your Terraform configuration code.
 
 ```shell
 $ touch main.tf
 ```
 
-Step 4. Enter the following code snippet in your `main.tf`. This will contain the configuration for your NGINX docker container. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#review-the-configuration) page.
+### Step 4. Enter the following code snippet in your `main.tf`. This will contain the configuration for your NGINX docker container. To learn more about Terraform configuration, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#review-the-configuration) page.
 
 ```hcl
 terraform {
@@ -72,7 +72,7 @@ resource "docker_image" "nginx" {
 }
 ```
 
-Step 5. Initialize Terraform with the `init` command which prepares the working directory for Terraform to run the configuration. To learn more about the `init` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#initialize-the-directory) page.
+### Step 5. Initialize Terraform with the `init` command which prepares the working directory for Terraform to run the configuration. To learn more about the `init` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#initialize-the-directory) page.
 
 ```shell
 $ terraform init
@@ -99,7 +99,7 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-Step 6. Apply the configuration to provision the NGINX resource using the `apply` command. Type `yes` when prompted and hit `Enter` to continue. To learn more about the `apply` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#create-infrastructure) page.
+### Step 6. Apply the configuration to provision the NGINX resource using the `apply` command. Type `yes` when prompted and hit `Enter` to continue. To learn more about the `apply` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-build?in=terraform/docker-get-started#create-infrastructure) page.
 
 ```shell
 $ terraform apply
@@ -196,7 +196,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
 
-Step 7. Confirm the NGINX instance is running by either running ```docker ps``` and verifying that the NGINX container is running or by opening ```localhost:80``` in your browser. 
+### Step 7. Confirm the NGINX instance is running by either running ```docker ps``` and verifying that the NGINX container is running or by opening ```localhost:80``` in your browser. 
 
 The `docker ps` command should display an output similar to the below:
 ``` shell
@@ -211,7 +211,7 @@ The page should display the following:
 <img width="477" alt="Screen Shot 2022-08-03 at 5 18 11 PM" src="https://user-images.githubusercontent.com/6539578/182714156-82c612ec-12ee-44b3-9b07-d0455ebdd09e.png">
 
 
-Step 8. To stop the container, run the following command. Type `yes` when prompted and hit `Enter` to continue. To learn more about the `destroy` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-destroy?in=terraform/docker-get-started#destroy) page.
+### Step 8. To stop the container, run the following command. Type `yes` when prompted and hit `Enter` to continue. To learn more about the `destroy` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-destroy?in=terraform/docker-get-started#destroy) page.
 
 ```shell
 $ terraform destroy
@@ -324,7 +324,7 @@ docker_image.nginx: Destruction complete after 0s
 Destroy complete! Resources: 2 destroyed.
 ```
 
-Step 9. Look for a message at the bottom of the output stating `Destroy complete! Resources: destroyed.` to confirm your NGINX instance has been destroyed.
+### Step 9. Look for a message at the bottom of the output stating `Destroy complete! Resources: destroyed.` to confirm your NGINX instance has been destroyed.
 
 ## Next Steps
 For next steps on how to use Terraform in a cloud environment, refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#next-steps) page.
