@@ -196,10 +196,11 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 Step 7. Confirm the NGINX instance is running by either running ```docker ps``` and verifying that the NGINX container is running or by opening ```localhost:80``` in your browser. 
 
-The page should display the following:
-```
+The page should display the following:  
+
+
 <img width="477" alt="Screen Shot 2022-08-03 at 5 18 11 PM" src="https://user-images.githubusercontent.com/6539578/182714156-82c612ec-12ee-44b3-9b07-d0455ebdd09e.png">
-```
+
 
 Step 8. To stop the container, run the following command. Type `yes` when prompted and hit `Enter` to continue. To learn more about the `destroy` command, refer to [this](https://learn.hashicorp.com/tutorials/terraform/docker-destroy?in=terraform/docker-get-started#destroy) page
 
