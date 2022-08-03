@@ -5,8 +5,8 @@ Terraform is an open source infrastructure as code (IaC) tool written in HCL (Ha
 ## Installating Terraform 
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and select the appropriate installation method for your operating system. Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#install-terraform) page to learn more about installing Terraform.
 
-## Verify the installation
-To verify the installation of Terraform was successful, open a new terminal session and list Terraform's available subcommands.
+## Verifying the Installation
+To verify the installation of Terraform was successful, open a new terminal session and use the `help` command to list the available subcommands.
 ```shell
 $ terraform -help
 Usage: terraform [-version] [-help] <command> [args]
@@ -15,9 +15,12 @@ The available commands for execution are listed below.
 The primary workflow commands are given first, followed by
 less common or more advanced commands.
 ```
+## Troubleshooting the Installation
+Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#troubleshoot) page to learn more on troubleshooting the Terraform installation. 
+
 
 # Terraform Demo using Docker
-In this demo, you will use Terraform to provision an Nginx instance using Docker Desktop. 
+In this demo, you will use Terraform to provision and destroy an NGINX instance. 
 
 ## Prerequisites
 
@@ -88,4 +91,4 @@ Step 8. To stop the container, run the following command. Type `yes` when prompt
 $ terraform destroy
 ```
 
-Step 9. Look for a message at the bottom of the output stating `Destroy complete! Resources: destroyed.` for confirmation
+Step 9. Look for a message at the bottom of the output stating `Destroy complete! Resources: destroyed.` to confirm your NGINX instance has been destroyed.
