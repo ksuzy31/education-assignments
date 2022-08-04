@@ -29,7 +29,7 @@ Refer to [this](https://learn.hashicorp.com/tutorials/terraform/install-cli#trou
 In this demo, you will learn how to use Terraform to provision and destroy an NGINX instance running as a docker container. 
 
 ## Additional Prerequisites
-- [Docker](https://www.docker.com/products/docker-desktop/). To learn how to install the 
+- [Docker](https://www.docker.com/products/docker-desktop/). 
 
 ## Quick Start Steps
 ### Step 1. Start Docker Desktop
